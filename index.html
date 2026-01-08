@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Básico</title>
+  </head>
+  <body>
+    <h1>Menu Básico</h1>
+    <p>Aperte 'M' para acessar o menu de opções ou clique no botão abaixo</p>
+    <button id="abrir" onclick="abrirMenu()">Abrir</button>
+    <article id="menu">
+      <button id="fechar" onclick="fecharMenu()">
+        <i>Fechar 🔴🟠🟡🟢</i>
+      </button>
+      <h2>Menu</h2>
+      <button id="btn1" onclick="acao1()">Opção 1</button>
+      <!-- exibe um alert -->
+      <button id="btn2" onclick="acao2()">Opção 2</button>
+      <!-- recarrega a página -->
+      <button id="btn3" onclick="acao3()">Opção 3</button>
+      <!-- registra que o usuário clicou nele -->
+      <button id="btn4" onclick="acao4()">Opção 4</button>
+      <!-- muda a cor de fundo da pagina, aleatoriamente, mín. 3 cores -->
+    </article>
+    <script src="./script.js"></script>
+  </body>
+</html>
